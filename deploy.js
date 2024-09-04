@@ -18,7 +18,7 @@ describe("StorageOptimized Contract", function () {
 
   it("should update the stored value correctly", async function () {
     await storageOptimized.updateStoredValue(50);
-    expect(await storageOptimized.getStoredValue()).to.equal(250); // 100 * 2 + 50
+    expect(await storageOptimized.getStoredValue()).to.equal(250); 
   });
 
   it("should process array correctly", async function () {
