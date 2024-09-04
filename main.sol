@@ -1,6 +1,6 @@
 // SPDX-License-Identifier: MIT
 pragma solidity ^0.8.0;
-//обычный контракт
+//обычный контракт 3
 contract StorageExample {
     uint256 public storedValue;
 
